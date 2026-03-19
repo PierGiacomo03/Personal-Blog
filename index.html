@@ -5,11 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PG — Pier Giacomo Agostinelli</title>
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAABt0lEQVR4nOyWTShEURiGv++Y0TRFzCTKX4OyQPIvZWEtxUIpQgrFTlkpKbKysJCdhZJEYcFCYRYmSX4SskHjvzQjY4bGmHM/93QnLGbuZDTZ3Ldb9z3fOfd97j3nnjq6GKMeoikdRFkaQANogP8EUFkaVFuE4wSOV1w5A5f3uxuRGguoKhOMerRe4twREP0S0FpCHaU/Kzi9z3qWhTMZubULcsyBkc1FmJ/MBtaC5jBQ19sHLp3KXyCC2kqoMkM20nidko42Oy4cg8cHupA54dbgzsVa5iDewB8GRFOek4M7asgT6TOHrHtRFOMNVJgSKUBRXGzAcKJsMzAUgHFboPjixS17pACLiZ/0QWaC8H4Jp3apJlvpwQsndZZTa7FoXDyx9vmIAPLkWhKF8fpZ/6qYbvlSZNBTeToVpwqfZQoZAOp6cLOmWbx+hkdP4MXPHYqhinQ2skE2uzRZrxIQ7i/yvOPe7Ve60I1LLsp3aawW7t24faUeEA4Q9JnhTXHLMXPHIN/pDTM4ZI+yM4PtT5zYZkPrIJFYIYMOfJyNWkPF4J9OFblJwCU4d6oMQe3YogE0QPQBnwAAAP//fw64yAAAAAZJREFUAwBETI5i3ShlEQAAAABJRU5ErkJggg==">
+  <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAABt0lEQVR4nOyWTShEURiGv++Y0TRFzCTKX4OyQPIvZWEtxUIpQgrFTlkpKbKysJCdhZJEYcFCYRYmSX4SskHjvzQjY4bGmHM/93QnLGbuZDTZ3Ldb9z3fOfd97j3nnjq6GKMeoikdRFkaQANogP8EUFkaVFuE4wSOV1w5A5f3uxuRGguoKhOMerRe4twREP0S0FpCHaU/Kzi9z3qWhTMZubULcsyBkc1FmJ/MBtaC5jBQ19sHLp3KXyCC2kqoMkM20nidko42Oy4cg8cHupA54dbgzsVa5iDewB8GRFOek4M7asgT6TOHrHtRFOMNVJgSKUBRXGzAcKJsMzAUgHFboPjixS17pACLiZ/0QWaC8H4Jp3apJlvpwQsndZZTa7FoXDyx9vmIAPLkWhKF8fpZ/6qYbvlSZNBTeToVpwqfZQoZAOp6cLOmWbx+hkdP4MXPHYqhinQ2skE2uzRZrxIQ7i/yvOPe7Ve60I1LLsp3aawW7t24faUeEA4Q9JnhTXHLMXPHIN/pDTM4ZI+yM4PtT5zYZkPrIJFYIYMOfJyNWkPF4J9OFblJwCU4d6oMQe3YogE0QPQBnwAAAP//fw64yAAAAAZJREFUAwBETI5i3ShlEQAAAABJRU5ErkJggg==">
+  <meta name="description" content="Pier Giacomo Agostinelli — MSc International Management at ESADE. Specialising in Digital Transformation & AI. Open to opportunities in AI, Strategy, and Consulting.">
+  <meta property="og:title" content="Pier Giacomo Agostinelli — AI · Strategy · Business">
+  <meta property="og:description" content="MSc International Management at ESADE. Specialising in Digital Transformation & AI. Explore my experience, education, and get in touch.">
+  <meta property="og:image" content="my_assets/IMG_0238.JPG">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pier Giacomo Agostinelli — AI · Strategy · Business">
+  <meta name="twitter:description" content="MSc International Management at ESADE. Specialising in Digital Transformation & AI.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap"
     rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <style>
     *,
     *::before,
@@ -219,7 +230,7 @@
     .acc-chevron{width:20px;height:20px;stroke:var(--accent);stroke-width:2;fill:none;transition:transform 0.35s cubic-bezier(0.34,1.2,0.64,1);}
     .acc.open .acc-chevron{transform:rotate(180deg);}
     .acc-body{max-height:0;overflow:hidden;transition:max-height 0.45s cubic-bezier(0.4,0,0.2,1);}
-    .acc.open .acc-body{max-height:340px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(0,255,136,0.12) transparent;}
+    .acc.open .acc-body{max-height:250px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(0,255,136,0.12) transparent;}
     .acc.open .acc-body::-webkit-scrollbar{width:3px;}
     .acc.open .acc-body::-webkit-scrollbar-track{background:transparent;}
     .acc.open .acc-body::-webkit-scrollbar-thumb{background:rgba(0,255,136,0.18);border-radius:2px;}
@@ -232,6 +243,9 @@
     .acc-item-dot{flex-shrink:0;width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px rgba(0,255,136,0.5);}
     .acc-item-title{font-family:'Space Mono',monospace;font-size:12px;font-weight:700;color:var(--text);letter-spacing:0.04em;}
     .acc-item-body{font-size:13px;color:rgba(232,245,232,0.65);line-height:1.8;padding-left:17px;}
+    .acc-item-logos{display:flex;align-items:center;gap:6px;margin-left:auto;flex-shrink:0;padding-left:10px;}
+    .acc-item-logo-wrap{background:#fff;border-radius:6px;padding:3px 6px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+    .acc-item-logo{height:18px;width:auto;max-width:52px;object-fit:contain;display:block;}
 
     /* CV download bar */
     .cv-dl{display:flex;align-items:center;gap:16px;padding:16px 22px;background:rgba(3,10,5,0.97);border:1px solid rgba(0,255,136,0.10);border-radius:14px;text-decoration:none;box-shadow:0 6px 30px rgba(0,0,0,0.45);transition:border-color 0.3s ease,transform 0.3s cubic-bezier(0.34,1.15,0.64,1);}
@@ -240,6 +254,25 @@
     .cv-dl-text{flex:1;font-family:'Space Mono',monospace;font-size:11px;font-weight:700;color:var(--accent);letter-spacing:0.1em;text-transform:uppercase;}
     .cv-dl-arrow{font-family:'Space Mono',monospace;font-size:16px;color:rgba(0,255,136,0.4);transition:color 0.3s ease,transform 0.3s ease;}
     .cv-dl:hover .cv-dl-arrow{color:var(--accent);transform:translateY(2px);}
+
+    /* CV Gate Modal */
+    .cv-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.7);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);z-index:9000;display:none;align-items:center;justify-content:center;opacity:0;transition:opacity 0.3s ease;}
+    .cv-modal-overlay.show{display:flex;opacity:1;}
+    .cv-modal{background:rgba(3,10,5,0.97);border:1px solid rgba(0,255,136,0.12);border-radius:18px;padding:32px 28px;max-width:380px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,0.6),0 0 0 1px rgba(0,255,136,0.04);transform:scale(0.92);transition:transform 0.35s cubic-bezier(0.34,1.2,0.64,1);}
+    .cv-modal-overlay.show .cv-modal{transform:scale(1);}
+    .cv-modal-title{font-family:'Space Mono',monospace;font-size:13px;font-weight:700;color:var(--accent);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:6px;}
+    .cv-modal-sub{font-size:12.5px;color:rgba(232,245,232,0.5);line-height:1.6;margin-bottom:22px;}
+    .cv-modal-field{display:flex;flex-direction:column;gap:5px;margin-bottom:14px;}
+    .cv-modal-label{font-family:'Space Mono',monospace;font-size:10px;font-weight:700;color:rgba(0,255,136,0.5);letter-spacing:0.12em;text-transform:uppercase;}
+    .cv-modal-input{background:rgba(0,255,136,0.04);border:1px solid rgba(0,255,136,0.12);border-radius:8px;padding:10px 14px;color:var(--text);font-family:'DM Sans',sans-serif;font-size:13px;outline:none;transition:border-color 0.25s ease;}
+    .cv-modal-input:focus{border-color:rgba(0,255,136,0.35);}
+    .cv-modal-input::placeholder{color:rgba(232,245,232,0.25);}
+    .cv-modal-btn{width:100%;margin-top:8px;padding:12px;background:rgba(0,255,136,0.12);border:1px solid rgba(0,255,136,0.2);border-radius:10px;color:var(--accent);font-family:'Space Mono',monospace;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;cursor:pointer;transition:background 0.25s ease,transform 0.25s ease;}
+    .cv-modal-btn:hover{background:rgba(0,255,136,0.2);transform:translateY(-1px);}
+    .cv-modal-btn:disabled{opacity:0.4;cursor:not-allowed;transform:none;}
+    .cv-modal-close{position:absolute;top:14px;right:16px;background:none;border:none;color:rgba(232,245,232,0.3);font-size:18px;cursor:pointer;transition:color 0.2s;}
+    .cv-modal-close:hover{color:var(--text);}
+    .cv-modal-error{font-size:11px;color:#ff6b6b;margin-top:6px;min-height:16px;}
 
     /* HOTSPOT */
     .hs {
@@ -456,13 +489,17 @@
 
     #terminal {
       position: fixed;
-      bottom: 28px;
-      left: 26px;
+      bottom: 22px;
+      left: 50%;
+      transform: translateX(-50%);
       z-index: 500;
       font-family: 'Space Mono', monospace;
-      font-size: 12px;
-      line-height: 1.9;
+      font-size: 13px;
+      line-height: 1;
       pointer-events: none;
+      display: flex;
+      gap: 28px;
+      white-space: nowrap;
     }
 
     .t-line {
@@ -478,12 +515,12 @@
 
     .t-text {
       color: rgba(74, 107, 74, 0.95);
-      font-size: 11px;
+      font-size: 12px;
     }
 
     .t-val {
       color: rgba(232, 245, 232, 0.85);
-      font-size: 11px;
+      font-size: 12px;
     }
 
     #pname-hover {
@@ -536,35 +573,19 @@
       margin-top: 3px;
     }
 
-    * {
-      cursor: none !important;
+    @media (min-width: 769px) {
+      * {
+        cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='22' viewBox='0 0 18 22'%3E%3Cpath d='M2 1 L2 17 L5.5 12.5 L9.5 19.5 L12 18 L8 11 L13.5 11 Z' fill='white' stroke='%2300ff88' stroke-width='1.5' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E") 2 1, auto !important;
+      }
     }
 
-    #custom-cursor {
+    #custom-cursor { display: none !important; }
+
+    #trail-canvas {
       position: fixed;
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-      border: 1.5px solid #00ff88;
-      background: transparent;
+      inset: 0;
       pointer-events: none;
-      z-index: 2147483647;
-      transform: translate(-50%, -50%);
-      box-shadow: 0 0 5px rgba(0,255,136,0.5), 0 0 10px rgba(0,255,136,0.2);
-      top: -200px;
-      left: -200px;
-    }
-
-    #cursor-dot {
-      position: absolute;
-      width: 3px;
-      height: 3px;
-      border-radius: 50%;
-      background: #00ff88;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      box-shadow: 0 0 4px #00ff88;
+      z-index: 2147483646;
     }
 
     #wm {
@@ -1215,6 +1236,191 @@
     .s3-send:focus-visible {
       outline: 1px solid rgba(0, 255, 136, 0.4);
     }
+  /* ── MOBILE RESPONSIVE ── */
+  .mob-section-btns { display: none; }
+  .photo-ext-cap { display: none; }
+
+  @media (max-width: 768px) {
+    /* Nav dots — keep on right side, vertically centered */
+    #nav {
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      flex-direction: column;
+    }
+
+    /* Terminal — bottom, stacked vertically, smaller */
+    #terminal {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      left: 14px;
+      bottom: 16px;
+      transform: none;
+      font-size: 9px;
+    }
+
+    /* Intro text — smaller on mobile */
+    #intro-who, #intro-iam {
+      font-size: clamp(52px, 16vw, 88px);
+    }
+
+    /* Section 1 — mobile layout */
+    #s1 {
+      flex-direction: column;
+      padding: 56px 0px 12px;
+      gap: 12px;
+      align-items: stretch;
+      justify-content: flex-start;
+    }
+
+    .photo-col {
+      flex-direction: row;
+      align-items: center;
+      gap: 14px;
+      flex: 0 0 auto;
+      padding: 0 18px;
+    }
+
+    .photo-frame {
+      width: 72px;
+      flex-shrink: 0;
+    }
+
+    .pname {
+      font-size: 10px;
+      text-align: left;
+    }
+
+    .ptag {
+      font-size: 10px;
+      text-align: left;
+    }
+
+    #name-tooltip { display: none !important; }
+    .photo-col { flex-wrap: wrap; }
+    .photo-frame:hover .photo-flipper { transform: none; }
+    .photo-back-caption { display: none; }
+    .photo-ext-cap { width: 100%; font-family: 'Space Mono', monospace; font-size: 9px; color: var(--accent); letter-spacing: 0.06em; padding-top: 6px; }
+    .photo-col.flipped .photo-ext-cap { display: block; }
+    .photo-col.flipped .photo-flipper { transform: rotateY(180deg); }
+
+    .cv-col {
+      max-width: 100%;
+      flex: 1 1 0;
+      max-height: calc(var(--vh, 1vh) * 100 - 148px);
+      overflow-y: auto;
+      padding: 0 18px;
+    }
+
+    .acc { display: none; }
+    .mob-section-btns { display: flex; flex-direction: column; gap: 10px; }
+    .mob-section-btn {
+      width: 100%; display: flex; align-items: center; justify-content: space-between;
+      padding: 20px 22px;
+      background: linear-gradient(135deg, rgba(0,255,136,0.04) 0%, rgba(0,255,136,0.01) 100%);
+      border: 1px solid rgba(0,255,136,0.14); border-radius: 16px;
+      cursor: pointer; font-family: 'Space Mono', monospace; font-size: 11px;
+      font-weight: 700; color: var(--accent); letter-spacing: 0.14em; text-transform: uppercase;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.35), inset 0 1px 0 rgba(0,255,136,0.06);
+      transition: background 0.25s ease, border-color 0.25s ease, transform 0.2s cubic-bezier(0.34,1.2,0.64,1), box-shadow 0.25s ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .mob-section-btn:active {
+      background: linear-gradient(135deg, rgba(0,255,136,0.09) 0%, rgba(0,255,136,0.03) 100%);
+      border-color: rgba(0,255,136,0.32);
+      transform: scale(0.97);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.4), 0 0 20px rgba(0,255,136,0.06);
+    }
+    .mob-btn-label { flex: 1; text-align: left; }
+    .mob-btn-arrow { width: 16px; height: 16px; stroke: var(--accent); flex-shrink: 0; opacity: 0.7; transition: transform 0.2s ease, opacity 0.2s ease; }
+    .mob-section-btn:active .mob-btn-arrow { transform: translateX(3px); opacity: 1; }
+
+    .cv-dl { padding: 12px 16px; }
+    .cv-dl-text { font-size: 10px; }
+
+    /* Section 2 */
+    .s2-wrap { padding: 0 20px; gap: 20px; }
+    .s2-title { font-size: clamp(22px, 6vw, 32px); }
+    .s2-card-body { padding: 20px 18px 16px; gap: 14px; }
+    .s2-read-btn { padding: 8px 12px; font-size: 10px; }
+
+    /* Section 3 — chat */
+    .s3-wrap { padding: 0 14px; gap: 18px; }
+    .s3-title { font-size: clamp(22px, 6vw, 32px); }
+    .s3-sub { font-size: 12px; }
+    .s3-messages { max-height: 200px; padding: 14px 14px 10px; }
+
+    /* Section 4 — contact */
+    .s4-wrap { padding: 0 16px; gap: 24px; }
+    .s4-title { font-size: clamp(22px, 6vw, 32px); }
+    .s4-card  { padding: 14px 16px; gap: 14px; }
+    .s4-value { font-size: 13px; }
+
+    /* Card popup */
+    #card-wrap { width: 94vw; }
+    .card-box  { padding: 24px 20px 18px; }
+  }
+
+  /* ── MOBILE SECTION BUTTONS & MODAL ── */
+  .mob-modal-overlay {
+    display: flex; position: fixed; inset: 0; z-index: 7000;
+    background: rgba(1,5,2,0); backdrop-filter: blur(0px) saturate(1);
+    -webkit-backdrop-filter: blur(0px) saturate(1);
+    align-items: flex-end; justify-content: center; padding: 0;
+    opacity: 0; pointer-events: none; visibility: hidden;
+    transition: opacity 0.38s ease, background 0.38s ease,
+                backdrop-filter 0.38s ease, -webkit-backdrop-filter 0.38s ease,
+                visibility 0s linear 0.38s;
+  }
+  .mob-modal-overlay.show {
+    opacity: 1; pointer-events: auto; visibility: visible;
+    background: rgba(1,5,2,0.65); backdrop-filter: blur(24px) saturate(0.35);
+    -webkit-backdrop-filter: blur(24px) saturate(0.35);
+    transition: opacity 0.38s ease, background 0.38s ease,
+                backdrop-filter 0.38s ease, -webkit-backdrop-filter 0.38s ease,
+                visibility 0s linear 0s;
+  }
+  .mob-modal-box {
+    width: 100%; max-height: 84vh; border-radius: 26px 26px 0 0;
+    background: linear-gradient(180deg, rgba(6,18,8,0.99) 0%, rgba(3,10,5,0.99) 100%);
+    border: 1px solid rgba(0,255,136,0.14); border-bottom: none;
+    display: flex; flex-direction: column; overflow: hidden;
+    box-shadow: 0 -12px 80px rgba(0,0,0,0.8), 0 0 0 1px rgba(0,255,136,0.05), inset 0 1px 0 rgba(0,255,136,0.08);
+    transform: translateY(100%);
+    transition: transform 0.52s cubic-bezier(0.32,1.1,0.36,1);
+  }
+  .mob-modal-overlay.show .mob-modal-box { transform: translateY(0); }
+  .mob-modal-handle {
+    width: 36px; height: 4px; border-radius: 2px;
+    background: rgba(0,255,136,0.2); margin: 12px auto 0; flex-shrink: 0;
+  }
+  .mob-modal-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 24px 16px; border-bottom: 1px solid rgba(0,255,136,0.08); flex-shrink: 0;
+  }
+  .mob-modal-label {
+    font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700;
+    color: var(--accent); letter-spacing: 0.22em; text-transform: uppercase;
+  }
+  .mob-modal-close {
+    background: rgba(0,255,136,0.05); border: 1px solid rgba(0,255,136,0.18); color: var(--accent);
+    width: 32px; height: 32px; border-radius: 50%; cursor: pointer;
+    font-size: 13px; display: flex; align-items: center; justify-content: center;
+    font-family: 'Space Mono', monospace; flex-shrink: 0;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+  .mob-modal-close:active { background: rgba(0,255,136,0.12); border-color: rgba(0,255,136,0.4); }
+  .mob-modal-content { overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 20px 18px 40px; flex: 1; }
+  .mob-modal-content .acc-items { padding: 0; display: flex; flex-direction: column; gap: 14px; }
+  .mob-modal-content .acc-item {
+    padding: 18px 16px; border: 1px solid rgba(0,255,136,0.09); border-radius: 16px;
+    background: rgba(0,255,136,0.025);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.02);
+  }
+  .mob-modal-content .acc-item-title { font-size: 14px; line-height: 1.4; }
+  .mob-modal-content .acc-item-body { font-size: 13.5px; line-height: 1.85; color: rgba(232,245,232,0.70); margin-top: 10px; }
+
   /* ── SECTION 4 — CONTACT ── */
 #s4{display:flex;align-items:center;justify-content:center;}
 .s4-wrap{display:flex;flex-direction:column;align-items:center;gap:36px;z-index:2;width:100%;max-width:520px;padding:0 32px;}
@@ -1295,8 +1501,8 @@
               <img src="my_assets/IMG_0238.JPG" alt="Pier Giacomo Agostinelli">
             </div>
             <div class="photo-back">
-              <img src="my_assets/developer-station.png" alt="Building the site">
-              <div class="photo-back-caption">me actually building this site ☕</div>
+              <img src="my_assets/developer-station.jpg" alt="Building the site">
+              <div class="photo-back-caption">me actually building this site <span style="font-family:'Apple Color Emoji';font-size:14px;">☕</span></div>
             </div>
           </div>
         </div>
@@ -1308,6 +1514,7 @@
           </div>
         </div>
         <div class="ptag"><span id="typed"></span><span class="cursor-blink">_</span></div>
+        <div class="photo-ext-cap">me actually building this site <span style="font-family:'Apple Color Emoji';font-size:11px;">☕</span></div>
       </div>
       <div class="cv-col">
         <div class="s4-eyebrow" style="text-align:left;margin-bottom:-6px;">// about me</div>
@@ -1348,6 +1555,10 @@
                 <div class="acc-item-head">
                   <div class="acc-item-dot"></div>
                   <div class="acc-item-title">Nova SBE — CEMS Global Alliance</div>
+                  <div class="acc-item-logos">
+                    <div class="acc-item-logo-wrap"><img class="acc-item-logo" src="my_assets/ImageToBytesHandler.ashx.png" alt="Nova SBE"></div>
+                    <div class="acc-item-logo-wrap"><img class="acc-item-logo" src="my_assets/CEMS_logo.svg.png" alt="CEMS"></div>
+                  </div>
                 </div>
                 <div class="acc-item-body">Upcoming exchange at Nova SBE in Lisbon (Jan–Jun 2027) within the CEMS Global Alliance — one of the world's most selective management networks, spanning 34 elite schools across Europe, Asia and the Americas. CEMS combines academic rigour with a strong corporate partner ecosystem and a genuinely global student community.</div>
               </div>
@@ -1355,6 +1566,9 @@
                 <div class="acc-item-head">
                   <div class="acc-item-dot"></div>
                   <div class="acc-item-title">ESADE — MSc International Management</div>
+                  <div class="acc-item-logos">
+                    <div class="acc-item-logo-wrap"><img class="acc-item-logo" src="my_assets/Esade_logo_nuevo.png" alt="ESADE"></div>
+                  </div>
                 </div>
                 <div class="acc-item-body">Currently enrolled at ESADE Barcelona (Sept 2025–Oct 2026), ranked top 10 globally for management. Specialisation in Digital Transformation & AI — coursework includes AI Applications for Business, Digital Product Management, Digital Leadership in the Era of AI, and Data-Driven Prototyping with AI.</div>
               </div>
@@ -1362,6 +1576,9 @@
                 <div class="acc-item-head">
                   <div class="acc-item-dot"></div>
                   <div class="acc-item-title">Emlyon Business School — Exchange</div>
+                  <div class="acc-item-logos">
+                    <div class="acc-item-logo-wrap"><img class="acc-item-logo" src="my_assets/Logo_emlyon_2021.png" alt="Emlyon"></div>
+                  </div>
                 </div>
                 <div class="acc-item-body">Exchange semester at Emlyon Paris campus (Sept 2024–Jan 2025), graduating with a GPA of 4.00. Deepened international business perspective through cross-cultural coursework in strategy, innovation and marketing — combining Bocconi's quantitative rigour with a more entrepreneurial, design-thinking lens.</div>
               </div>
@@ -1369,18 +1586,32 @@
                 <div class="acc-item-head">
                   <div class="acc-item-dot"></div>
                   <div class="acc-item-title">Bocconi — BSc Economics & Management</div>
+                  <div class="acc-item-logos">
+                    <div class="acc-item-logo-wrap"><img class="acc-item-logo" src="my_assets/Bocconi_University_Logo.png" alt="Bocconi"></div>
+                  </div>
                 </div>
                 <div class="acc-item-body">Undergraduate degree from Università Bocconi in Milan (2022–2025), GPA 3.2/4.00. The programme built a rigorous quantitative foundation across financial accounting, microeconomics, macroeconomics, corporate finance, applied mathematics, statistics and management consulting — the analytical backbone for all subsequent work.</div>
               </div>
             </div>
           </div>
         </div>
+        <!-- MOBILE BUTTONS (hidden on desktop) -->
+        <div class="mob-section-btns">
+          <button class="mob-section-btn" id="mob-btn-exp">
+            <span class="mob-btn-label">Professional Experience</span>
+            <svg class="mob-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <button class="mob-section-btn" id="mob-btn-edu">
+            <span class="mob-btn-label">Education</span>
+            <svg class="mob-btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
         <!-- CV DOWNLOAD -->
-        <a class="cv-dl" href="my_assets/cv-screenshot.png" download="PierGiacomo_Agostinelli_CV.png">
+        <div class="cv-dl" id="cv-dl-btn" style="cursor:pointer;">
           <img class="cv-dl-thumb" src="my_assets/cv-screenshot.png" alt="CV">
           <span class="cv-dl-text">Download my CV</span>
           <span class="cv-dl-arrow">↓</span>
-        </a>
+        </div>
       </div>
     </section>
     <section id="s2" class="section">
@@ -1389,7 +1620,7 @@
         <h2 class="s2-title">Thoughts on AI,<br>Strategy &amp; Business</h2>
         <p class="s2-sub">I write about how AI is reshaping strategy and business — exploring frameworks, market shifts,
           and what it means to build and decide in a world moving faster than most plans.</p>
-        <a class="s2-card" href="https://substack.com/@piergiacomoo" target="_blank" rel="noopener">
+        <a class="s2-card" href="https://piergiacomoo.substack.com/?r=6onlou&utm_campaign=pub-share-checklist" target="_blank" rel="noopener">
           <div class="s2-card-body">
             <div class="s2-icon-wrap">
               <img src="my_assets/folder-green.svg" alt="" class="s2-folder-img">
@@ -1423,17 +1654,14 @@
       <div class="s3-wrap">
         <div class="s3-header">
           <div class="s3-eyebrow">// ask me anything</div>
-          <h2 class="s3-title">Chat with me</h2>
-          <p class="s3-sub">I'm an AI version of Pier Giacomo. Ask me about my background, vision on AI, career goals,
-            or anything else.</p>
+          <h2 class="s3-title">Pre-screen me</h2>
+          <p class="s3-sub">Skip the cold email. Ask my AI anything you'd want to know before a first call — background, fit, availability, or what drives me.</p>
         </div>
         <div class="s3-chat-box">
           <div class="s3-messages" id="s3-messages">
             <div class="s3-msg s3-msg-ai">
               <img src="my_assets/IMG_0238.JPG" class="s3-msg-avatar" alt="Pier Giacomo">
-              <div class="s3-msg-text">Hey — I'm an AI version of Pier Giacomo. Ask me anything: my background, take on
-                AI and business, career goals, or what I'm looking for next. I'll do my best to answer as he would. 👋
-              </div>
+              <div class="s3-msg-text">Recruiter? Ask me what my CV can't tell you — what I'm actually building toward, what kind of work energises me, or why I'd be a good fit for your team. 👀</div>
             </div>
           </div>
           <div class="s3-input-row">
@@ -1515,8 +1743,44 @@
     <div class="t-line"><span class="t-prompt">&gt;</span> <span class="t-text">target</span><span class="t-val"> AI ·
         Strategy · Dubai</span></div>
   </div>
+  <canvas id="trail-canvas"></canvas>
   <div id="custom-cursor">
     <div id="cursor-dot"></div>
+  </div>
+
+  <!-- MOBILE SECTION MODAL -->
+  <div class="mob-modal-overlay" id="mob-modal">
+    <div class="mob-modal-box">
+      <div class="mob-modal-handle"></div>
+      <div class="mob-modal-header">
+        <div class="mob-modal-label" id="mob-modal-label"></div>
+        <button class="mob-modal-close" id="mob-modal-close">✕</button>
+      </div>
+      <div class="mob-modal-content" id="mob-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- CV GATE MODAL -->
+  <div class="cv-modal-overlay" id="cv-modal">
+    <div class="cv-modal" style="position:relative;">
+      <button class="cv-modal-close" id="cv-modal-close">&times;</button>
+      <div class="cv-modal-title">Download My CV</div>
+      <div class="cv-modal-sub">Quick intro before you grab it — just so I know who's interested.</div>
+      <div class="cv-modal-field">
+        <label class="cv-modal-label">Your Name</label>
+        <input class="cv-modal-input" id="cv-name" type="text" placeholder="e.g. Maria Rossi">
+      </div>
+      <div class="cv-modal-field">
+        <label class="cv-modal-label">Role / Company</label>
+        <input class="cv-modal-input" id="cv-role" type="text" placeholder="e.g. Recruiter at McKinsey">
+      </div>
+      <div class="cv-modal-field">
+        <label class="cv-modal-label">LinkedIn Profile</label>
+        <input class="cv-modal-input" id="cv-linkedin" type="url" placeholder="https://linkedin.com/in/...">
+      </div>
+      <div class="cv-modal-error" id="cv-error"></div>
+      <button class="cv-modal-btn" id="cv-submit">Download CV</button>
+    </div>
   </div>
   <script>
     var _sf = /^(?!.*Chrome).*Safari/.test(navigator.userAgent);
@@ -1562,17 +1826,42 @@
       sw.style.height = TOTAL * 100 + 'vh';
       function go(n) { if (n === cur || n < 0 || n >= TOTAL) return; cur = n; busy = true; sw.style.transform = `translateY(-${cur * 100}vh)`; dots.forEach((d, i) => d.classList.toggle('on', i === cur)); setTimeout(() => { busy = false; }, 960); }
       window.addEventListener('wheel', e => {
-        const scrollable = e.target.closest('.cv-col, .acc-body, .s3-messages, .s3-chat-box');
-        if(scrollable){
+        const scrollable = e.target.closest('.acc-body, .cv-col, .s3-messages, .s3-chat-box');
+        if(scrollable && scrollable.scrollHeight > scrollable.clientHeight + 1){
           e.preventDefault();
           scrollable.scrollBy({top: e.deltaY, behavior: 'auto'});
           return;
         }
         e.preventDefault(); if (busy) return; if (e.deltaY > 20) go(cur + 1); if (e.deltaY < -20) go(cur - 1);
       }, { passive: false });
-      let ty = 0;
-      window.addEventListener('touchstart', e => { ty = e.touches[0].clientY; }, { passive: true });
-      window.addEventListener('touchend', e => { if (busy) return; const d = ty - e.changedTouches[0].clientY; if (Math.abs(d) < 50) return; go(d > 0 ? cur + 1 : cur - 1); }, { passive: true });
+      let ty = 0, lastTy = 0, touchTarget = null;
+      window.addEventListener('touchstart', e => {
+        ty = e.touches[0].clientY;
+        lastTy = ty;
+        touchTarget = e.target;
+      }, { passive: true });
+      window.addEventListener('touchmove', e => {
+        const scrollable = touchTarget && touchTarget.closest('.acc-body, .cv-col, .s3-messages, .s3-chat-box, .mob-modal-content');
+        if (scrollable && scrollable.scrollHeight > scrollable.clientHeight + 1) {
+          const delta = lastTy - e.touches[0].clientY;
+          lastTy = e.touches[0].clientY;
+          scrollable.scrollTop += delta;
+          e.preventDefault();
+        }
+      }, { passive: false });
+      window.addEventListener('touchend', e => {
+        if (busy) return;
+        const d = ty - e.changedTouches[0].clientY;
+        if (Math.abs(d) < 50) return;
+        const scrollable = touchTarget && touchTarget.closest('.acc-body, .cv-col, .s3-messages, .s3-chat-box, .mob-modal-content');
+        if (scrollable && scrollable.scrollHeight > scrollable.clientHeight + 1) {
+          const atBottom = scrollable.scrollTop + scrollable.clientHeight >= scrollable.scrollHeight - 6;
+          const atTop = scrollable.scrollTop <= 6;
+          if (d > 0 && !atBottom) return;
+          if (d < 0 && !atTop) return;
+        }
+        go(d > 0 ? cur + 1 : cur - 1);
+      }, { passive: true });
       dots.forEach(d => d.addEventListener('click', () => go(+d.dataset.i)));
     })();
 
@@ -1667,11 +1956,54 @@
     })();
 
     (function () {
-      const c = document.getElementById('custom-cursor');
-      if (!c) return;
-      function move(e) { c.style.left = e.clientX + 'px'; c.style.top = e.clientY + 'px'; }
-      document.addEventListener('mousemove', move, true);
-      window.addEventListener('mousemove', move, true);
+      if (window.matchMedia('(max-width:768px)').matches) return;
+      const canvas = document.getElementById('trail-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let W = canvas.width = window.innerWidth;
+      let H = canvas.height = window.innerHeight;
+      window.addEventListener('resize', () => {
+        W = canvas.width = window.innerWidth;
+        H = canvas.height = window.innerHeight;
+      });
+
+      const points = [];
+      const MAX_AGE = 480;
+      const MAX_PTS = 45;
+
+      window.addEventListener('mousemove', e => {
+        points.push({ x: e.clientX, y: e.clientY, t: Date.now() });
+        if (points.length > MAX_PTS) points.shift();
+      });
+
+      function draw() {
+        ctx.clearRect(0, 0, W, H);
+        const now = Date.now();
+        while (points.length > 1 && now - points[0].t > MAX_AGE) points.shift();
+
+        if (points.length >= 2) {
+          ctx.lineCap = 'round';
+          ctx.lineJoin = 'round';
+          for (let i = 1; i < points.length; i++) {
+            const p0 = points[i - 1];
+            const p1 = points[i];
+            const ratio = i / (points.length - 1);
+            const alpha = ratio * ratio * 0.88;
+            const width = 0.7 + ratio * 2;
+            ctx.beginPath();
+            ctx.moveTo(p0.x, p0.y);
+            ctx.lineTo(p1.x, p1.y);
+            ctx.strokeStyle = `rgba(0,255,136,${alpha})`;
+            ctx.lineWidth = width;
+            ctx.shadowBlur = 12 * ratio;
+            ctx.shadowColor = '#00ff88';
+            ctx.stroke();
+          }
+          ctx.shadowBlur = 0;
+        }
+        requestAnimationFrame(draw);
+      }
+      draw();
     })();
 
     // CV aura removed — CV is now a small download thumbnail
@@ -1747,12 +2079,13 @@ Key facts about Pier Giacomo:
 - Upcoming: Exchange at Nova SBE (Lisbon) within the CEMS Global Alliance, Jan–Jun 2027
 - Skills: SQL (Datacamp certified), advanced Excel (Bocconi certified), Python fundamentals, AI tools
 - Interests: AI strategy, early-stage startups, business model innovation, wine culture, international business
-- Target: AI · Strategy · Dubai — open to opportunities from Summer 2026
+- Availability: internship from 1 June to end of August 2026 — looking for roles in AI, strategy, or consulting
+- Long-term ambition: work in Dubai (this is a future goal, not a current constraint — do NOT mention Dubai when discussing near-term opportunities)
 - Speaks: Italian (native), English (fluent), Spanish (conversational)
 - Writes a Substack newsletter (@piergiacomo) on AI, strategy, and business
 - Personality: thoughtful, direct, intellectually curious, with a streak of Italian warmth
 
-Respond as Pier Giacomo would — conversational, confident but not arrogant, insightful about AI and business. Keep answers concise (2–4 sentences) unless the question genuinely needs more depth. You can answer in Italian if the user writes in Italian, otherwise default to English. Never claim to be an AI assistant — you are Pier Giacomo.`;
+Respond as Pier Giacomo would — direct, professional, confident but not arrogant. Keep answers concise: 2–3 sentences by default. No bullet points, no headers, no lists unless explicitly asked. Only go longer if the question genuinely requires depth. You can answer in Italian if the user writes in Italian, otherwise default to English. Never claim to be an AI assistant — you are Pier Giacomo.`;
 
       const history = [];
       const msgBox = document.getElementById('s3-messages');
@@ -1848,6 +2181,97 @@ Respond as Pier Giacomo would — conversational, confident but not arrogant, in
       input.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); } });
     })();
 
+// ── MOBILE SECTION MODALS ──
+(function(){
+  if(window.innerWidth > 768) return;
+  const overlay = document.getElementById('mob-modal');
+  const labelEl = document.getElementById('mob-modal-label');
+  const contentEl = document.getElementById('mob-modal-content');
+  const closeBtn = document.getElementById('mob-modal-close');
+  if(!overlay) return;
+
+  function openModal(accId, title){
+    const accItems = document.querySelector('#' + accId + ' .acc-items');
+    if(!accItems) return;
+    labelEl.textContent = title;
+    contentEl.innerHTML = '';
+    const clone = accItems.cloneNode(true);
+    contentEl.appendChild(clone);
+    overlay.classList.add('show');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal(){
+    box.style.transition = 'transform 0.52s cubic-bezier(0.32,1.1,0.36,1)';
+    box.style.transform = 'translateY(100%)';
+    overlay.classList.remove('show');
+    setTimeout(() => {
+      document.body.style.overflow = '';
+      box.style.transform = '';
+    }, 420);
+  }
+
+  // ── Drag-to-dismiss ──
+  const box = overlay.querySelector('.mob-modal-box');
+  const handle = overlay.querySelector('.mob-modal-handle');
+  const header = overlay.querySelector('.mob-modal-header');
+  let dragStartY = 0, dragging = false, currentY = 0;
+
+  function onDragStart(e){
+    const touch = e.touches[0];
+    const target = e.target;
+    // allow drag from handle, header, or content when scrolled to top
+    const content = overlay.querySelector('.mob-modal-content');
+    const fromContent = content && content.contains(target);
+    if(fromContent && content.scrollTop > 4) return;
+    dragging = true;
+    dragStartY = touch.clientY;
+    box.style.transition = 'none';
+    e.stopPropagation();
+  }
+
+  function onDragMove(e){
+    if(!dragging) return;
+    const dy = e.touches[0].clientY - dragStartY;
+    if(dy < 0){ box.style.transform = `translateY(${dy * 0.15}px)`; return; }
+    currentY = dy;
+    box.style.transform = `translateY(${dy}px)`;
+    e.stopPropagation();
+  }
+
+  function onDragEnd(e){
+    if(!dragging) return;
+    dragging = false;
+    if(currentY > 120){
+      closeModal();
+    } else {
+      box.style.transition = 'transform 0.4s cubic-bezier(0.34,1.2,0.64,1)';
+      box.style.transform = 'translateY(0)';
+    }
+    currentY = 0;
+  }
+
+  box.addEventListener('touchstart', onDragStart, { passive: true });
+  box.addEventListener('touchmove', onDragMove, { passive: false });
+  box.addEventListener('touchend', onDragEnd, { passive: true });
+
+  const btnExp = document.getElementById('mob-btn-exp');
+  const btnEdu = document.getElementById('mob-btn-edu');
+  if(btnExp) btnExp.addEventListener('click', () => openModal('acc-exp', 'Professional Experience'));
+  if(btnEdu) btnEdu.addEventListener('click', () => openModal('acc-edu', 'Education'));
+  closeBtn.addEventListener('click', closeModal);
+  overlay.addEventListener('click', e => { if(e.target === overlay) closeModal(); });
+})();
+
+// ── MOBILE PHOTO EASTER EGG ──
+(function(){
+  if(!('ontouchstart' in window)) return;
+  const pf = document.getElementById('pf');
+  if(!pf) return;
+  const col = pf.closest('.photo-col');
+  pf.addEventListener('click', function(){ col.classList.toggle('flipped'); });
+})();
+
 // ── SECTION 4 — PHONE POPOVER ──
 (function(){
   const phone = document.getElementById('s4-phone');
@@ -1882,6 +2306,77 @@ Respond as Pier Giacomo would — conversational, confident but not arrogant, in
     if(!phone.contains(e.target)){
       popover.classList.remove('show');
     }
+  });
+})();
+
+// ── CV GATE — EmailJS notification ──
+(function(){
+  emailjs.init('INmHg4k96Zm6RcoKM');
+  const btn = document.getElementById('cv-dl-btn');
+  const modal = document.getElementById('cv-modal');
+  const closeBtn = document.getElementById('cv-modal-close');
+  const submitBtn = document.getElementById('cv-submit');
+  const errorEl = document.getElementById('cv-error');
+  if(!btn || !modal) return;
+
+  btn.addEventListener('click', function(){
+    modal.classList.add('show');
+  });
+
+  closeBtn.addEventListener('click', function(){
+    modal.classList.remove('show');
+    errorEl.textContent = '';
+  });
+
+  modal.addEventListener('click', function(e){
+    if(e.target === modal){ modal.classList.remove('show'); errorEl.textContent = ''; }
+  });
+
+  submitBtn.addEventListener('click', async function(){
+    const name = document.getElementById('cv-name').value.trim();
+    const role = document.getElementById('cv-role').value.trim();
+    const linkedin = document.getElementById('cv-linkedin').value.trim();
+
+    if(!name || !role || !linkedin){
+      errorEl.textContent = 'Please fill in all fields.';
+      return;
+    }
+    if(!linkedin.includes('linkedin.com/')){
+      errorEl.textContent = 'Please enter a valid LinkedIn URL.';
+      return;
+    }
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+    errorEl.textContent = '';
+
+    try {
+      await emailjs.send('service_48y1sme', 'template_6hp2br6', {
+        from_name: name,
+        role: role,
+        linkedin: linkedin,
+        time: new Date().toLocaleString('en-GB', {timeZone:'Europe/Madrid'})
+      });
+    } catch(err) {
+      // Still allow download even if email fails
+      console.warn('EmailJS error:', err);
+    }
+
+    // Trigger download
+    const a = document.createElement('a');
+    a.href = 'my_assets/Pier_Giacomo_Agostinelli_CV.pdf';
+    a.download = 'Pier_Giacomo_Agostinelli_CV.pdf';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+
+    // Reset modal
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Download CV';
+    modal.classList.remove('show');
+    document.getElementById('cv-name').value = '';
+    document.getElementById('cv-role').value = '';
+    document.getElementById('cv-linkedin').value = '';
   });
 })();
   </script>
