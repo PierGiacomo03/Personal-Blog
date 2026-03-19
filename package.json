@@ -12,5 +12,8 @@
   "type": "commonjs",
   "devDependencies": {
     "puppeteer": "^24.39.1"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }
